@@ -13,7 +13,8 @@ const port = process.env.PORT || 5001;
 
 connectDb();
 const corsOptions = {
-  origin: "https://bright-gumption-6f436d.netlify.app/", // Replace with your frontend URL
+  http://localhost:3000/login
+  origin: "http://localhost:3000/", // Replace with your frontend URL
   credentials: true,
   allowedHeaders: ["Content-Type", "Authorization"], // Add any additional headers required by your server
 };
