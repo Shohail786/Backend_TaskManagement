@@ -13,8 +13,7 @@ const port = process.env.PORT || 5001;
 
 connectDb();
 const corsOptions = {
-  http://localhost:3000/login
-  origin: "https://frontend-taskmanagement.onrender.com", // Replace with your frontend URL
+  origin: "https://new-1-frontendtaskmanagement.onrender.com", // Replace with your frontend URL
   credentials: true,
   allowedHeaders: ["Content-Type", "Authorization"], // Add any additional headers required by your server
 };
